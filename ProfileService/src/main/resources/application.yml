@@ -1,0 +1,18 @@
+server:
+  port: 9002
+  context-path: /profile
+spring:
+  application:
+    name: ProfileServices
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+#    healthcheck:
+#      enabled: true
+    register-with-eureka: true
+    fetch-registry: true

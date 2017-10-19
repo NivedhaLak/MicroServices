@@ -5,3 +5,5 @@
 *.jar
 bin/
 *.prefs
+*.properties
+*.lst

@@ -1,0 +1,6 @@
+{
+"/gateway": {
+		"target": "http://localhost:9001",
+		"secure": false
+	}
+}
